@@ -1,7 +1,3 @@
-<script lang="ts">
-	console.log('Hello');
-</script>
-
 <nav>
 	<ul>
 		<li>
@@ -13,4 +9,4 @@
 	</ul>
 </nav>
 
-<h1>Home page</h1>
+<h1>Posts page</h1>
