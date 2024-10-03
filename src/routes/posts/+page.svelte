@@ -1,11 +1,17 @@
 <script lang="ts">
 	import '../../app.css';
-	import { page } from '$app/stores';
+	import { onMount } from 'svelte';
+
+  	onMount(() => { /* picks random intro subtext, typescript gets a little mad */
+		(function introPick() {
+			var intros = ['Getting bored is lame', 'Made with love', 'Sometimes they work', 'HELLO EMPLOYERS', 'Wanna see a magic trick?', ':3'];
+			var randomFact = Math.floor(Math.random() * intros.length);
+			document.getElementById('introDisplay')!.innerHTML = intros[randomFact];
+		})();
+	})
 </script>
 
 <div class="project-welcome">
-	<h1>Posts page</h1>
-	<p>
-		You can <a href="/posts/create">+create</a> or edit your posts here.
-	</p>
+	<h1>Projects Collection</h1>
+	<p id="introDisplay"></p>
 </div>
