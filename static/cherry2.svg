@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs/>
+  <ellipse style="fill: rgb(0, 0, 0); stroke: rgb(0, 0, 0);" cx="157.346" cy="303.521" rx="130.796" ry="115.379"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 0, 96);" cx="157.346" cy="303.521" rx="114" ry="100.582"/>
+  <path style="stroke-linecap: round; fill: rgba(216, 216, 216, 0); stroke: rgb(239, 239, 239); stroke-width: 18px;" d="M 168.805 388.105 C 188.069 388.183 243.924 370.003 258.08 315.987"/>
+  <ellipse style="fill: rgb(0, 0, 0); stroke: rgb(0, 0, 0);" cx="331.74" cy="376.17" rx="130.796" ry="115.379"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 0, 96);" cx="332.147" cy="376.17" rx="114" ry="100.419"/>
+  <path style="paint-order: fill; fill-rule: nonzero; stroke-linecap: round; stroke-miterlimit: 4.73; fill: rgba(216, 216, 216, 0); stroke: rgb(0, 0, 0); stroke-width: 34px;" d="M 205.306 190.06 C 202.326 195.015 247.393 41.891 450.498 23.076"/>
+  <path style="stroke: rgb(0, 0, 0); fill: rgba(216, 216, 216, 0); stroke-linecap: round; stroke-width: 34px;" d="M 342.628 259.294 C 342.628 259.294 309.858 129.21 419.355 32.281"/>
+  <path style="stroke-linecap: round; fill: rgba(216, 216, 216, 0); stroke: rgb(239, 239, 239); stroke-width: 18px;" d="M 342.254 462.55 C 361.518 462.628 417.373 444.448 431.529 390.432"/>
+  <path style="stroke-linecap: round; fill: rgba(216, 216, 216, 0); stroke-width: 8px; stroke: rgba(0, 0, 0, 0.3);" d="M 63.185 332.353 C 33.095 249.755 140.521 195.019 193.991 222.37"/>
+  <path style="stroke-linecap: round; fill: rgba(216, 216, 216, 0); stroke-width: 8px; stroke: rgba(0, 0, 0, 0.3);" d="M 235.629 402.958 C 205.539 320.36 312.965 265.624 366.435 292.975"/>
+</svg>

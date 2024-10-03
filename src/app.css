@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+}
+
+h1 {
+    line-height: 1;
+    text-transform: capitalize;
+    color: pink;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #c291ff;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header img.logo {
+    margin: 10px;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+    background-color: #8f6abc;
+    color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+    margin: 20px 0px;
+    padding-right: 5%;
+    float: right;
+}
+
+.header-right a {
+    margin-left: 20px;
+}
+
+.project-welcome h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-size: 96px;
+}
+
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+}

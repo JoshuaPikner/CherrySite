@@ -1,12 +1,11 @@
-<nav>
-	<ul>
-		<li>
-			<a href="/">Home</a>
-		</li>
-		<li>
-			<a href="/posts">Posts</a>
-		</li>
-	</ul>
-</nav>
+<script lang="ts">
+	import '../../app.css';
+	import { page } from '$app/stores';
+</script>
 
-<h1>Posts page</h1>
+<div class="project-welcome">
+	<h1>Posts page</h1>
+	<p>
+		You can <a href="/posts/create">+create</a> or edit your posts here.
+	</p>
+</div>
