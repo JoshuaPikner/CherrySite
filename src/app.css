@@ -63,8 +63,37 @@ h1 {
 .project-welcome p {
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(23%, 4);
+    grid-template-rows: 200px 200px 200px;
+    gap: 4% 2%;
+    grid-template-areas:
+        "single single single single"
+        "single single single single"
+}
+
+.single {
+    background: pink;
+    color: black;
+    place-items: center;
+    border-radius: 25px;
+    overflow: hidden;
+    transition: transform 200ms ease-in-out 0s;
+}
+
+.single:hover {
+    transform: scale(1.1);
+}
+
+.single p {
+    text-align: center;
+    color: black;
+    font-size: 140%;
+}
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
